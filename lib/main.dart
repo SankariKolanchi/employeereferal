@@ -1,4 +1,5 @@
 import 'package:employeerefferal/view/screens/splash_screen.dart';
+import 'package:employeerefferal/view/themes/app_theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,12 +12,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Employee Referal App',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
+      theme: AppTheme.appTheme,
       home: const SplashScreen(),
     );
   }

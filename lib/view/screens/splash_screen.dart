@@ -1,4 +1,4 @@
-import 'package:employeerefferal/view/screens/signup_screen.dart';
+import 'package:employeerefferal/view/screens/onboarding_screen.dart/signup_screen.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatelessWidget {
@@ -10,7 +10,6 @@ class SplashScreen extends StatelessWidget {
       body: Stack(children: [
         Container(
           decoration: const BoxDecoration(
-            color: Colors.blue,
             image: DecorationImage(
                 image: AssetImage(
                   'assets/images/bg_img.png',

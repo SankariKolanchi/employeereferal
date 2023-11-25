@@ -154,4 +154,10 @@ abstract class AppTextStyle {
 
   static const organeF24W800TextStyle = TextStyle(
       fontSize: 24, fontWeight: FontWeight.w800, color: AppColors.organeColor);
+
+  static TextStyle whiteF16W600TextStyle = TextStyle(
+      fontSize: 16, fontWeight: FontWeight.w600, color: AppColors.whiteColor);
+
+  static  const greyF16W500TextStyle = TextStyle(
+      fontSize: 16, fontWeight: FontWeight.w500, color: Colors.grey);
 }
