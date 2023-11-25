@@ -11,7 +11,6 @@ class _OtpScreenState extends State<OtpScreen> {
   @override
   Widget build(BuildContext context) {
     final height = MediaQuery.of(context).size.height;
-    print('height ==> $height, height / 10 ==> ${height / 10}');
     return Scaffold(
       backgroundColor: Colors.blue,
       body: SingleChildScrollView(
@@ -124,7 +123,7 @@ class _OtpScreenState extends State<OtpScreen> {
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(30),
                               ),
-                              primary: Colors.white,
+                              backgroundColor: Colors.white,
                               elevation: 0,
                             ),
                             child: const Padding(

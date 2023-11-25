@@ -4,7 +4,6 @@ import '../../../widgets/app_button_widgets.dart';
 import '../../../widgets/textForm_field_widget.dart';
 import '../../themes/app_colors.dart';
 import '../../themes/app_text_style.dart';
-import 'otp_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
